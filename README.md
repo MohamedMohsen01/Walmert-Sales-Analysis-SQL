@@ -18,7 +18,7 @@ Understand customer behavior: Analyze customer purchase patterns and behaviors b
 
 Improve sales strategies: Based on the analysis of the Walmart Sales data, propose actionable recommendations for enhancing sales strategies. Utilize SQL queries to identify areas for optimization, such as inventory management, pricing strategies, or promotional campaigns. Provide data-backed insights to help optimize sales and drive business growth.
 
-## Data Description
+## Data Dictionary
 
 This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
@@ -29,17 +29,17 @@ This dataset contains sales transactions from three different branches of Walmar
 | city                    | The location of the branch              | VARCHAR(30)    |
 | customer_type           | The type of the customer                | VARCHAR(30)    |
 | gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
+| product_line            | set of related products                 | VARCHAR(100)   |
 | unit_price              | The price of each product               | DECIMAL(10, 2) |
 | quantity                | The amount of the product sold          | INT            |
-| VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
-| total                   | The total cost of the purchase          | DECIMAL(10, 2) |
+| VAT                     | The amount of tax on the purchase       | FLOAT(6, 4)    |
+| Revenue                 | The total cost of the purchase (sales)  | DECIMAL(10, 2) |
 | date                    | The date on which the purchase was made | DATE           |
 | time                    | The time at which the purchase was made | TIMESTAMP      |
-| payment_method                 | The total amount paid                   | DECIMAL(10, 2) |
+| payment_method          | The total amount paid                   | DECIMAL(10, 2) |
 | cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
-| gross_margin_percentage | Gross margin percentage                 | FLOAT(11, 9)   |
-| gross_income            | Gross Income                            | DECIMAL(10, 2) |
+| Profit                  | Net Income                              | DECIMAL(10, 2) |
+| Profit Margin           | percentage of Profit                    | FLOAT(11, 9)   |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
 ### Analysis List
