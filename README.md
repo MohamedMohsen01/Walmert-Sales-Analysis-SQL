@@ -1,18 +1,26 @@
 # Walmart Sales Data Analysis
 
-## About
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+## Project Description
 
-## Purposes Of The Project
+This SQL project aims to utilize the Walmart Sales data to gain insights into various aspects, including top-performing branches and products, sales trends across different products, and customer behavior. The primary objective is to analyze the data using SQL queries and identify opportunities for improving and optimizing sales strategies.
 
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+## Project Goals
 
-## About Data
+Identify top-performing branches: Utilize SQL queries to analyze sales data and determine the branches that consistently achieve high sales volumes. Identify key factors contributing to their success, such as location, customer demographics, or specific product offerings.
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+Analyze best-selling products: Explore the data to identify the best-selling products in Walmart stores. Use SQL queries to determine the products with the highest sales volumes or revenues. Analyze factors like product category, price range, or promotional activities to understand the drivers of their success.
+
+Study sales trends: Use SQL queries to analyze historical sales data and uncover trends and patterns associated with different product categories. Identify seasonal variations, sales spikes, or other factors that impact sales performance. Visualize the trends using charts or graphs to aid in understanding and decision-making.
+
+Understand customer behavior: Analyze customer purchase patterns and behaviors by querying the data. Extract insights into customer demographics, purchase frequency, preferred products, or shopping habits. Use SQL queries to segment customers and identify opportunities for targeted marketing and personalized promotions.
+
+Improve sales strategies: Based on the analysis of the Walmart Sales data, propose actionable recommendations for enhancing sales strategies. Utilize SQL queries to identify areas for optimization, such as inventory management, pricing strategies, or promotional campaigns. Provide data-backed insights to help optimize sales and drive business growth.
+
+## Data Description
+
+This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
