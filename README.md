@@ -56,14 +56,14 @@ Data Integration:
 Validated cleaned and transformed data for accuracy and integrity.
 Merged and joined datasets from multiple sources based on common identifiers or keys to create a unified dataset.
 
-2. **Feature Engineering:** 
+**Feature Engineering:** 
 
- > - Created new variables and features from existing data that provided additional insights, such as:
- > - created a column called `time_of_day` to capture sales patterns in the Morning, Afternoon, and Evening. This information will help determine the peak sales        periods during the day.
+> - Created new variables and features from existing data that provided additional insights, such as:
+> - created a column called `time_of_day` to capture sales patterns in the Morning, Afternoon, and Evening. This information will help determine the peak sales        periods during the day.
 
- > - created a column named `day_name`to extract the specific day of the week when each transaction occurred (Mon, Tue, Wed, Thur, Fri). This data will aid in understanding the busiest days for each branch.
+> - created a column named `day_name`to extract the specific day of the week when each transaction occurred (Mon, Tue, Wed, Thur, Fri). This data will aid in understanding the busiest days for each branch.
 
- > - created a column named `month_name` to extract the month of the year for each transaction (Jan, Feb, Mar). This data will assist in identifying the months with the highest sales and profitability.
+> - created a column named `month_name` to extract the month of the year for each transaction (Jan, Feb, Mar). This data will assist in identifying the months with the highest sales and profitability.
 
 
 
