@@ -52,7 +52,8 @@ Gained an understanding of the specific business questions or objectives that ne
 **Data Cleaning and Preprocessing**
 my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
 
-##### 1. ## Data Assessment: I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
+##### 1. Data Assessment:#### 
+I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
 
 Data Cleaning: I performed data cleaning operations to address the identified issues. This included tasks such as:
 
