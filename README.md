@@ -65,9 +65,7 @@ This dataset contains sales transactions from three different branches of Walmar
 
 1. **Data Wrangling:** my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
 
-Data Collection: I obtained the raw data from various sources, such as databases, APIs, or files, depending on the project requirements.
-
-Data Assessment: I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
+***Data Assessment:*** I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
 
 Data Cleaning: I performed data cleaning operations to address the identified issues. This included tasks such as:
 
