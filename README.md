@@ -1,7 +1,6 @@
 # Walmart Sales Data Analysis
 
 
-
 ## Project Description
 
 This SQL project aims to utilize the Walmart Sales data to gain insights into various aspects, including top-performing branches and products, sales trends across different products, and customer behavior. The primary objective is to analyze the data using SQL queries and identify opportunities for improving and optimizing sales strategies.
@@ -43,37 +42,26 @@ This dataset contains sales transactions from three different branches of Walmar
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
 
-## Analysis List
-
-#### Product Analysis:
-
-- Utilized SQL to conduct in-depth analysis of product lines to identify top-performing and underperforming segments.
-- Identified areas for improvement within each product line.
-
-#### Sales Analysis:
-
-- Leveraged SQL to analyze sales trends, providing insights into product performance and effectiveness of sales strategies.
-- Implemented SQL queries to measure the impact of different sales strategies and recommend modifications for increased sales.
-
-#### Customer Analysis:
-
-- Uncovered customer segments and their purchasing patterns.
-- Utilized SQL queries to extract actionable insights, enabling targeted marketing efforts and optimizing customer satisfaction.
-
-
 ## Approach Used
 
-1. **Data Wrangling:** my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
+**Data Understanding:**
 
-***Data Assessment:*** I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
+Familiarize myself with the dataset's structure, including the available columns, data types, and any provided documentation or data dictionary.
+Gained an understanding of the specific business questions or objectives that need to be addressed using the dataset.
+
+**Data Cleaning and Preprocessing:**
+my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
+
+***Data Assessment:*** 
+- I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
 
 Data Cleaning: I performed data cleaning operations to address the identified issues. This included tasks such as:
 
-Handling Missing Values: I employed techniques like imputation or deletion, depending on the nature of the missing data.
-Removing Duplicates: I eliminated any duplicate records or entries to ensure data integrity.
-Standardizing Formats: I standardized the formats of data fields, such as dates, currencies, or units, to ensure consistency.
-Correcting Errors: I resolved data entry errors or inconsistencies by verifying against trusted sources or applying data transformation techniques.
-Data Transformation: I conducted data transformations to derive meaningful insights or facilitate analysis. This involved tasks like:
+- Handling Missing Values: I employed techniques like imputation or deletion, depending on the nature of the missing data.
+- Removing Duplicates: I eliminated any duplicate records or entries to ensure data integrity.
+- Standardizing Formats: I standardized the formats of data fields, such as dates, currencies, or units, to ensure consistency.
+- Correcting Errors: I resolved data entry errors or inconsistencies by verifying against trusted sources or applying data transformation techniques.
+  Data Transformation: I conducted data transformations to derive meaningful insights or facilitate analysis. This involved tasks like:
 
 Aggregating Data: I aggregated data at different levels, such as daily, monthly, or by categories, to enable analysis and reporting.
 Creating Derived Variables: I calculated new variables or features based on existing data, which could include ratios, averages, or other derived metrics.
@@ -91,6 +79,21 @@ Data Validation: After cleaning and transforming the data, I validated the resul
 > 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
 2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
+
+#### Product Analysis:
+
+- Utilized SQL to conduct in-depth analysis of product lines to identify top-performing and underperforming segments.
+- Identified areas for improvement within each product line.
+
+#### Sales Analysis:
+
+- Leveraged SQL to analyze sales trends, providing insights into product performance and effectiveness of sales strategies.
+- Implemented SQL queries to measure the impact of different sales strategies and recommend modifications for increased sales.
+
+#### Customer Analysis:
+
+- Uncovered customer segments and their purchasing patterns.
+- Utilized SQL queries to extract actionable insights, enabling targeted marketing efforts and optimizing customer satisfaction.
 
 3. **Conclusion:**
 
