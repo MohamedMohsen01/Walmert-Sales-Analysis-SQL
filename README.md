@@ -34,27 +34,32 @@ This dataset contains sales transactions from three different branches of Walmar
 | quantity                | The amount of the product sold          | INT            |
 | VAT                     | The amount of tax on the purchase       | FLOAT(6, 4)    |
 | Revenue                 | The total cost of the purchase (sales)  | DECIMAL(10, 2) |
-| date                    | The date on which the purchase was made | DATE           |
-| time                    | The time at which the purchase was made | TIMESTAMP      |
+| date                    | The date on which the purchase was made | DATETIME       |
+| time                    | The time at which the purchase was made | TIME           |
 | payment_method          | The total amount paid                   | DECIMAL(10, 2) |
 | cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
 | Profit                  | Net Income                              | DECIMAL(10, 2) |
 | Profit Margin           | percentage of Profit                    | FLOAT(11, 9)   |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
-### Analysis List
 
-1. Product Analysis
+## Analysis List
 
-> Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
+#### Product Analysis:
 
-2. Sales Analysis
+- Utilized SQL to conduct in-depth analysis of product lines to identify top-performing and underperforming segments.
+- Identified areas for improvement within each product line.
 
-> This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
+#### Sales Analysis:
 
-3. Customer Analysis
+- Leveraged SQL to analyze sales trends, providing insights into product performance and effectiveness of sales strategies.
+- Implemented SQL queries to measure the impact of different sales strategies and recommend modifications for increased sales.
 
-> This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
+#### Customer Analysis:
+
+- Uncovered customer segments and their purchasing patterns.
+- Utilized SQL queries to extract actionable insights, enabling targeted marketing efforts and optimizing customer satisfaction.
+
 
 ## Approach Used
 
