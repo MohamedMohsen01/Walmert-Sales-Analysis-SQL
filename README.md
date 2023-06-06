@@ -5,18 +5,6 @@
 
 This SQL project aims to utilize the Walmart Sales data to gain insights into various aspects, including top-performing branches and products, sales trends across different products, and customer behavior. The primary objective is to analyze the data using SQL queries and identify opportunities for improving and optimizing sales strategies.
 
-## Project Goals
-
-Identify top-performing branches: Utilize SQL queries to analyze sales data and determine the branches that consistently achieve high sales volumes. Identify key factors contributing to their success, such as location, customer demographics, or specific product offerings.
-
-Analyze best-selling products: Explore the data to identify the best-selling products in Walmart stores. Use SQL queries to determine the products with the highest sales volumes or revenues. Analyze factors like product category, price range, or promotional activities to understand the drivers of their success.
-
-Study sales trends: Use SQL queries to analyze historical sales data and uncover trends and patterns associated with different product categories. Identify seasonal variations, sales spikes, or other factors that impact sales performance. Visualize the trends using charts or graphs to aid in understanding and decision-making.
-
-Understand customer behavior: Analyze customer purchase patterns and behaviors by querying the data. Extract insights into customer demographics, purchase frequency, preferred products, or shopping habits. Use SQL queries to segment customers and identify opportunities for targeted marketing and personalized promotions.
-
-Improve sales strategies: Based on the analysis of the Walmart Sales data, propose actionable recommendations for enhancing sales strategies. Utilize SQL queries to identify areas for optimization, such as inventory management, pricing strategies, or promotional campaigns. Provide data-backed insights to help optimize sales and drive business growth.
-
 ## Data Dictionary
 
 This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
@@ -42,74 +30,51 @@ This dataset contains sales transactions from three different branches of Walmar
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
 
-## Approach Used
+## Methodology 
 
-**Data Understanding**
+**Data Understanding:**
 
-Familiarize myself with the dataset's structure, including the available columns, data types, and any provided documentation or data dictionary.
-Gained an understanding of the specific business questions or objectives that need to be addressed using the dataset.
+Familiarized with dataset structure, columns, data types, and data dictionary.
+Identified specific business questions or objectives.
 
-**Data Cleaning and Preprocessing**
-my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
+**Data Assessment:**
 
-##### 1. Data Assessment:#### 
-I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
+Evaluated data quality and structure for issues like missing values, outliers, and formatting inconsistencies.
 
-Data Cleaning: I performed data cleaning operations to address the identified issues. This included tasks such as:
+**Data Cleaning and Preprocessing:**
 
-- Handling Missing Values: I employed techniques like imputation or deletion, depending on the nature of the missing data.
-- Removing Duplicates: I eliminated any duplicate records or entries to ensure data integrity.
-- Standardizing Formats: I standardized the formats of data fields, such as dates, currencies, or units, to ensure consistency.
-- Correcting Errors: I resolved data entry errors or inconsistencies by verifying against trusted sources or applying data transformation techniques.
-  Data Transformation: I conducted data transformations to derive meaningful insights or facilitate analysis. This involved tasks like:
+Conducted data wrangling tasks to ensure reliable and usable data:
+Handled missing data using imputation or deletion.
+Removed duplicate records for data integrity.
+Standardized data field formats for consistency.
+Data Transformation:
 
-Aggregating Data: I aggregated data at different levels, such as daily, monthly, or by categories, to enable analysis and reporting.
-Creating Derived Variables: I calculated new variables or features based on existing data, which could include ratios, averages, or other derived metrics.
-Data Encoding: I encoded categorical variables into numerical representations, such as one-hot encoding or label encoding, to enable statistical analysis.
-Data Integration: If working with multiple data sources, I merged or joined datasets based on common identifiers or keys to combine relevant information into a unified dataset.
+Performed meaningful data transformations for analysis:
+Aggregated data at different levels (e.g., weekly, yearly, by categories) using aggregation functions like SUM, MIN, MAX, COUNT, AVG.
+Data Integration:
 
-Data Validation: After cleaning and transforming the data, I validated the results to ensure accuracy and integrity. This involved cross-checking with external sources, performing data quality checks, and validating against expected results.
+Validated cleaned and transformed data for accuracy and integrity.
+Merged and joined datasets from multiple sources based on common identifiers or keys to create a unified dataset.
 
-2. **Feature Engineering:** This will help use generate some new columns from existing ones.
+2. **Feature Engineering:** 
 
-> 1. Add a new column named `time_of_day` to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
+ > - Created new variables and features from existing data that provided additional insights, such as:
+ > - created a column called `time_of_day` to capture sales patterns in the Morning, Afternoon, and Evening. This information will help determine the peak sales        periods during the day.
 
-> 2. Add a new column named `day_name` that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
+ > - created a column named `day_name`to extract the specific day of the week when each transaction occurred (Mon, Tue, Wed, Thur, Fri). This data will aid in understanding the busiest days for each branch.
 
-> 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
-**Feature Engineering:**
+ > - created a column named `month_name` to extract the month of the year for each transaction (Jan, Feb, Mar). This data will assist in identifying the months with the highest sales and profitability.
 
-Create new variables or features from existing data that could provide additional insights, such as calculating average order value, customer lifetime value, or conversion rates.
-Transform variables as needed, such as converting categorical variables into numerical representations.
 
-2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
 
-#### Product Analysis:
-
-- Utilized SQL to conduct in-depth analysis of product lines to identify top-performing and underperforming segments.
-- Identified areas for improvement within each product line.
-
-#### Sales Analysis:
-
-- Leveraged SQL to analyze sales trends, providing insights into product performance and effectiveness of sales strategies.
-- Implemented SQL queries to measure the impact of different sales strategies and recommend modifications for increased sales.
-
-#### Customer Analysis:
-
-- Uncovered customer segments and their purchasing patterns.
-- Utilized SQL queries to extract actionable insights, enabling targeted marketing efforts and optimizing customer satisfaction.
-
-3. **Conclusion:**
-
-## Business Questions To Answer
+## Exploratory Data Analysis (EDA): 
+Some of the business questions I've answered based on the data:
 
 ### Generic Question
-
 1. How many unique cities does the data have?
 2. In which city is each branch?
 
 ### Product
-
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
 3. What is the most selling product line?
@@ -142,6 +107,23 @@ Transform variables as needed, such as converting categorical variables into num
 8. Which time of the day do customers give most ratings per branch?
 9. Which day fo the week has the best avg ratings?
 10. Which day of the week has the best average ratings per branch?
+
+## Analysis Results
+
+**Product Analysis:**
+
+- Utilized SQL to conduct in-depth analysis of product lines to identify top-performing and underperforming segments.
+- Identified areas for improvement within each product line.
+
+**Sales Analysis:**
+
+- Leveraged SQL to analyze sales trends, providing insights into product performance and effectiveness of sales strategies.
+- Implemented SQL queries to measure the impact of different sales strategies and recommend modifications for increased sales.
+
+**Customer Analysis:**
+
+- Uncovered customer segments and their purchasing patterns.
+- Utilized SQL queries to extract actionable insights, enabling targeted marketing efforts and optimizing customer satisfaction.
 
 
 ## Revenue And Profit Calculations
