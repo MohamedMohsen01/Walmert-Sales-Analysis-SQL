@@ -44,16 +44,15 @@ This dataset contains sales transactions from three different branches of Walmar
 
 ## Approach Used
 
-**Data Understanding:**
+**Data Understanding**
 
 Familiarize myself with the dataset's structure, including the available columns, data types, and any provided documentation or data dictionary.
 Gained an understanding of the specific business questions or objectives that need to be addressed using the dataset.
 
-**Data Cleaning and Preprocessing:**
+**Data Cleaning and Preprocessing**
 my role in data wrangling and cleaning involved several tasks to ensure the data was in a usable and reliable format. Here are some key steps I took:
 
-***Data Assessment:*** 
-- I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
+##### 1. ## Data Assessment: I assessed the quality and structure of the data to identify any issues or inconsistencies that needed to be addressed. This involved checking for missing values, outliers, inconsistent formatting, or data entry errors.
 
 Data Cleaning: I performed data cleaning operations to address the identified issues. This included tasks such as:
 
