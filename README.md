@@ -148,4 +148,4 @@ $ Revenue = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
 ## Code
 
-For the code, check the [Walmert_Sales_SQL_queries.sql](https://github.com/MohamedMohsen01/Walmert_Sales_Data_Analysis_SQL_Project/blob/main/Walmart_Sales_Analysis_SQL.sql) file.
+For the code, please feel free to check the [Walmert_Sales_SQL_queries.sql](https://github.com/MohamedMohsen01/Walmert_Sales_Data_Analysis_SQL_Project/blob/main/Walmart_Sales_Analysis_SQL.sql) file.
