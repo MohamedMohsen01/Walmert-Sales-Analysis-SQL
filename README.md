@@ -120,31 +120,18 @@ Some of the business questions I've answered based on the data:
 
 ## Revenue And Profit Calculations
 
-$ COGS = unitsPrice * quantity $
+COGS = unitsPrice * quantity 
 
-$ VAT = 5\% * COGS $
+VAT = 5\% * COGS 
 
-$VAT$ is added to the $COGS$ and this is what is billed to the customer.
+VAT is added to the $COGS$ and this is what is billed to the customer.
 
-$ Revenue = VAT + COGS $
+Revenue = VAT + COGS 
 
-$ Profit = revenue - COGS $
+Profit = revenue - COGS 
 
-**Profit Margin** is gross profit expressed in percentage of the (total profit/ total revenue)
+Profit Margin % = (total profit/ total revenue)*100 
 
-
-<u>**Example with the first row in our DB:**</u>
-
-**Data given:**
-
-- $ \text{Unite Price} = 45.79 $
-- $ \text{Quantity} = 7 $
-
-$ COGS = 45.79 * 7 = 320.53 $
-
-$ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
-
-$ Revenue = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
 ## Code
 
