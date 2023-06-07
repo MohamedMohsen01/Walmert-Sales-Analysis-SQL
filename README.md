@@ -100,7 +100,7 @@ Some of the business questions I've answered based on the data:
 10. Which day of the week has the highest average ratings for each branch?
 
 
-## Analysis Results
+## Analysis Approach
 
 **Product Analysis:**
 
