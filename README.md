@@ -144,9 +144,7 @@ $ COGS = 45.79 * 7 = 320.53 $
 
 $ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
 
-$ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
-
-$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\\=\frac{16.0265}{336.5565} = 0.047619\\\approx 4.7619\% $
+$ Revenue = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
 ## Code
 
