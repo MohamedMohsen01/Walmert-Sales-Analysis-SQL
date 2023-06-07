@@ -43,12 +43,86 @@ This dataset contains sales transactions from three different branches of Walmar
 
 **Data Cleaning and Preprocessing:**
 
-- Conducted data wrangling tasks to ensure reliable and usable data.
-- Added constraints on the data like`Primary Key` to ensure Uniquenessو Data Integrity and Data Consistency and like `data type` and `NOT NULL` constraints to enforce that certain columns must have non-null values. 
-- Added constraints to :
-- There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
-- Removed duplicate records for data integrity.
-- Standardized data field formats for consistency.
+- Implemented constraints on the data, including the use of a `Primary Key` constraint to ensure uniqueness, data integrity, and data consistency.
+- Specified appropriate `data types` for columns to ensure accurate storage and manipulation of data.
+- Applied `NOT NULL` constraints on specific columns to enforce the requirement that they must have non-null values. This ensures data completeness and prevents     the insertion of null values in those columns.
+
+```sql
+
+-- Adding primary key constraint on invoice_ID column
+ALTER TABLE sales
+ADD CONSTRAINT PK_sales PRIMARY KEY (invoice_ID);
+
+-- Altering invoice_ID column
+ALTER TABLE sales
+ALTER COLUMN invoice_ID VARCHAR(30) NOT NULL;
+
+-- Altering branch column
+ALTER TABLE sales
+ALTER COLUMN branch VARCHAR(5) NOT NULL;
+
+-- Altering city column
+ALTER TABLE sales
+ALTER COLUMN city VARCHAR(30) NOT NULL;
+
+
+-- Altering customer_type column
+ALTER TABLE sales
+ALTER COLUMN customer_type VARCHAR(30) NOT NULL;
+
+-- Altering gender column
+ALTER TABLE sales
+ALTER COLUMN gender VARCHAR(10) NOT NULL;
+
+-- Altering product_line column
+ALTER TABLE sales
+ALTER COLUMN product_line VARCHAR(100) NOT NULL;
+
+-- Altering unit_price column
+ALTER TABLE sales
+ALTER COLUMN unit_price DECIMAL(10,2) NOT NULL;
+
+-- Altering quantity column
+ALTER TABLE sales
+ALTER COLUMN quantity INT NOT NULL;
+
+-- Altering VAT column
+ALTER TABLE sales
+ALTER COLUMN VAT FLOAT NOT NULL;
+
+-- Altering Revenue column
+ALTER TABLE sales
+ALTER COLUMN Revenue DECIMAL(12,4) NOT NULL;
+
+-- Altering date column
+ALTER TABLE sales
+ALTER COLUMN date DATETIME NOT NULL;
+
+-- Altering time column
+ALTER TABLE sales
+ALTER COLUMN time TIME NOT NULL;
+
+-- Altering payment_method column
+ALTER TABLE sales
+ALTER COLUMN payment_method VARCHAR(15) NOT NULL;
+
+-- Altering cogs column
+ALTER TABLE sales
+ALTER COLUMN cogs DECIMAL(10,2) NOT NULL;
+
+-- Altering Profit_Margin column
+ALTER TABLE sales
+ALTER COLUMN Profit_Margin FLOAT NOT NULL;
+
+-- Altering Profit column
+ALTER TABLE sales
+ALTER COLUMN Profit DECIMAL(12,4) NOT NULL;
+
+-- Altering rating column
+ALTER TABLE sales
+ALTER COLUMN rating FLOAT NOT NULL;
+```
+
 
 **Feature Engineering:** 
 
@@ -58,7 +132,8 @@ This dataset contains sales transactions from three different branches of Walmar
 > - created a column named `day_name`to extract the specific day of the week when each transaction occurred (Mon, Tue, Wed, Thur, Fri). This data will aid in understanding the busiest days for each branch.
 
 > - created a column named `month_name` to extract the month of the year for each transaction (Jan, Feb, Mar). This data will assist in identifying the months with the highest sales and profitability.
-Data Transformation:
+
+**Data Transformation:**
 
 Performed meaningful data transformations for analysis:
 Aggregated data at different levels (e.g., weekly, yearly, by categories) using aggregation functions like SUM, MIN, MAX, COUNT, AVG.
