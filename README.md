@@ -61,11 +61,11 @@ This dataset contains sales transactions from three different branches of Walmar
 ## Exploratory Data Analysis (EDA): 
 Some of the business questions I've answered based on the data:
 
-#### Generic Questions
+### Generic Questions
 1. How many unique cities does the data have?
 2. In which city is each branch?
 
-#### Product related Questions
+### Product related Questions
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
 3. What is the most selling product line?
@@ -79,14 +79,14 @@ Some of the business questions I've answered based on the data:
 9. What is the most common product line by gender?
 12. What is the average rating of each product line?
 
-#### Sales related Questions
+### Sales related Questions
 
 1. Number of sales made in each time of the day per weekday
 2. Which of the customer types brings the most revenue?
 3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
 4. Which customer type pays the most in VAT?
 
-#### Customer related Questions
+### Customer related Questions
 
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
