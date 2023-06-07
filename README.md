@@ -66,38 +66,39 @@ Some of the business questions I've answered based on the data:
 2. In which city is each branch?
 
 ### Product related Questions
-1. How many unique product lines does the data have?
-2. What is the most common payment method?
-3. What is the most selling product line?
-4. What is the total revenue by month?
-5. What month had the largest COGS?
-6. What product line had the largest revenue?
-5. What is the city with the largest revenue?
-6. What product line had the largest VAT?
-7. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-8. Which branch sold more products than average product sold?
-9. What is the most common product line by gender?
-12. What is the average rating of each product line?
+1. How many unique product lines are included in the data?
+2. Which payment method is the most frequently used?
+3. Which product line has the highest sales volume?
+4. What is the total revenue for each month?
+5. Which month had the highest Cost of Goods Sold (COGS)?
+6. Which product line generated the highest revenue?
+7. Which city had the highest revenue?
+8. Which product line had the highest Value Added Tax (VAT)?
+9. For each product line, add a column indicating whether it has "Good" or "Bad" sales, based on whether its sales are above or below the average.
+10. Which branch sold more products than the average number of products sold?
+11. What is the most common product line based on gender?
+12. What is the average rating for each product line?
 
 ### Sales related Questions
 
-1. Number of sales made in each time of the day per weekday
-2. Which of the customer types brings the most revenue?
-3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
-4. Which customer type pays the most in VAT?
+1. How many sales were made during each time of the day for each weekday?
+2. Which customer type generates the highest revenue?
+3. Which city has the highest tax percentage or VAT (Value Added Tax)?
+4. Among the customer types, which one pays the highest amount in VAT?
 
 ### Customer related Questions
 
-1. How many unique customer types does the data have?
-2. How many unique payment methods does the data have?
-3. What is the most common customer type?
-4. Which customer type buys the most?
-5. What is the gender of most of the customers?
-6. What is the gender distribution per branch?
-7. Which time of the day do customers give most ratings?
-8. Which time of the day do customers give most ratings per branch?
-9. Which day fo the week has the best avg ratings?
-10. Which day of the week has the best average ratings per branch?
+1. How many distinct customer types are represented in the data?
+2. How many unique payment methods are available in the data?
+3. Which customer type generates the highest revenue?
+4. Which customer type has the highest total sales?
+5. What is the predominant gender among the customers?
+6. How is the gender distributed across branches?
+7. During which time of the day do customers provide the most ratings?
+8. During which time of the day do customers provide the most ratings for each branch?
+9. Which day of the week has the highest average ratings overall?
+10. Which day of the week has the highest average ratings for each branch?
+
 
 ## Analysis Results
 
