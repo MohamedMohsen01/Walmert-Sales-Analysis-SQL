@@ -34,27 +34,21 @@ This dataset contains sales transactions from three different branches of Walmar
 
 **Data Understanding:**
 
-Familiarized with dataset structure, columns, data types, and data dictionary.
-Identified specific business questions or objectives.
+- Familiarized with dataset structure, columns, data types, and data dictionary.
+- Identified specific business questions or objectives.
 
 **Data Assessment:**
 
-Evaluated data quality and structure for issues like missing values, outliers, and formatting inconsistencies.
+- Evaluated data quality and structure for issues like missing values, outliers, and formatting inconsistencies.
 
 **Data Cleaning and Preprocessing:**
 
-Conducted data wrangling tasks to ensure reliable and usable data:
-Handled missing data using imputation or deletion.
-Removed duplicate records for data integrity.
-Standardized data field formats for consistency.
-Data Transformation:
-
-Performed meaningful data transformations for analysis:
-Aggregated data at different levels (e.g., weekly, yearly, by categories) using aggregation functions like SUM, MIN, MAX, COUNT, AVG.
-Data Integration:
-
-Validated cleaned and transformed data for accuracy and integrity.
-Merged and joined datasets from multiple sources based on common identifiers or keys to create a unified dataset.
+- Conducted data wrangling tasks to ensure reliable and usable data.
+- Added constraints on the data like`Primary Key` to ensure Uniquenessو Data Integrity and Data Consistency and like `data type` and `NOT NULL` constraints to enforce that certain columns must have non-null values. 
+- Added constraints to :
+- There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
+- Removed duplicate records for data integrity.
+- Standardized data field formats for consistency.
 
 **Feature Engineering:** 
 
@@ -64,6 +58,16 @@ Merged and joined datasets from multiple sources based on common identifiers or 
 > - created a column named `day_name`to extract the specific day of the week when each transaction occurred (Mon, Tue, Wed, Thur, Fri). This data will aid in understanding the busiest days for each branch.
 
 > - created a column named `month_name` to extract the month of the year for each transaction (Jan, Feb, Mar). This data will assist in identifying the months with the highest sales and profitability.
+Data Transformation:
+
+Performed meaningful data transformations for analysis:
+Aggregated data at different levels (e.g., weekly, yearly, by categories) using aggregation functions like SUM, MIN, MAX, COUNT, AVG.
+Data Integration:
+
+Validated cleaned and transformed data for accuracy and integrity.
+Merged and joined datasets from multiple sources based on common identifiers or keys to create a unified dataset.
+
+
 
 
 
